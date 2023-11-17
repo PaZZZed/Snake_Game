@@ -1,0 +1,33 @@
+/* Zedzian Pawel 53204  B132*/
+
+.divide {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+
+.square {
+    padding: 5px;
+    height: 20px;
+    background-color: mediumturquoise;
+}
+
+#footer {
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    bottom: 0px;
+    left: 500px;
+    right: 500px;
+}
+
+#header {
+    text-align: center;
+}
